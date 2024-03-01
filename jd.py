@@ -26,7 +26,7 @@ def main():
             st.image(resume_file, caption="Uploaded Resume", use_column_width=True)
 
             # Get job description from the server (replace YOUR_API_KEY with your actual API key)
-            api_key = "YOUR_API_KEY"
+            api_key = "AIzaSyBIBUq7XbSypynOLhLV--skQStGqJ7Si_8"
             job_description = requests.get(f"https://api.example.com/job/{selected_job}?api_key={api_key}").json()
 
             # Perform matching using Gemini API (replace with the actual Gemini API endpoint)
